@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Login from './components/Login/Login';
 import './App.css'
 import { UserStorage } from './UserContext';
@@ -15,7 +15,7 @@ import NotFound from './components/NotFound';
 const App = () => {
   return (
   <div className='App'>
-    <BrowserRouter>
+    <HashRouter>
       <UserStorage>
           <Header />
           <main className='AppBody'>
@@ -31,7 +31,7 @@ const App = () => {
           </main>
           <Footer />
         </UserStorage>
-    </BrowserRouter>
+    </HashRouter>
   </div>)
 };
 
