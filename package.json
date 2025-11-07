@@ -1,5 +1,4 @@
 {
-  "homepage": "https://marlon-moneque.github.io/Dogs-React/",
   "name": "dogs",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
